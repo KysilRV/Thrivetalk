@@ -1,0 +1,27 @@
+.thrive {
+    &__question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 607px;
+        background-color: #62D0DF;
+        padding-left: 120px;
+        &-title {
+            margin-bottom: 75px;
+            font-size: 36px;
+            color: #FFFFFF;
+        }
+        &-descr {
+            font-size: 20px;
+            color: #FFFFFF;
+            font-weight: 300;
+            span {
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+        &-info {
+            width: 555px;
+        }
+    }
+}
